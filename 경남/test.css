@@ -1,0 +1,45 @@
+li{
+    list-style: none;
+}
+
+.test{
+    background-color: blue;
+    width: 250px;
+    height: 250px;
+    margin-right: 250px;
+    float: left;
+}
+
+.test li{
+    width: 250px;
+    height: 250px;
+    background-color: rgba(165, 42, 42, 0.181);
+    animation: m1 6s infinite;
+}
+.test li:hover{
+
+}
+.a{
+    margin-bottom: 250px;
+}
+.b{
+    margin-bottom: 500px;
+}
+
+@keyframes m1 {
+    0%{
+        margin-top: 0px;
+    }
+    25%{
+        margin-top: -250px;
+    }
+    50%{
+        margin-top: -250px;
+    }
+    75%{
+        margin-top:  -417px;
+    }
+    100%{
+        margin-top: -417px;
+    }
+}
